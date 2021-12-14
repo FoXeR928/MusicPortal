@@ -1,0 +1,124 @@
+@font-face {
+    font-family: 'sans';
+    src: url(../font/open-sans_[allfont.ru].ttf);
+}
+body{
+    margin: 0;
+    background: rgb(22, 22, 22);
+    color: white;
+    font-family: 'sans';
+}
+.fix-conteiner{
+    width: 960px;
+    margin: auto;
+}
+.-back{
+    background: rgb(51, 51, 51);
+    padding: 20px;
+}
+.-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.-logo{
+    width: 50px;
+}
+.-margin{
+    margin: 20px 0;
+}
+.-nav{
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 150px;
+}
+.-link{
+    text-decoration: none;
+    color: white;
+}
+.-border{
+    border-radius: 20px;
+}
+.-background{
+    background: url(../img/0a09ca980a21a931de36407acf4f1cb8.jpeg);
+    background-size: 920px;
+    padding: 125px 30px 150px 570px;
+    border-radius: 20px;
+    border:3px solid rgb(22, 22, 22);
+}
+.-wrap{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.-cont{
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    padding: 10px;
+    color: black;
+    margin: 10px 0;
+    border: 3px solid rgb(22, 22, 22);
+    border-radius: 20px;
+}
+.-img{
+    height: 250px;
+}
+.-button{
+    background: rgb(15, 15, 15);
+    border: 3px solid rgb(22, 22, 22);
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    font-family: 'sans';
+}
+.-width{
+    width: 100%;
+}
+.-cont-2{
+    padding: 10px;
+    color: black;
+    margin: 10px 0;
+    border: 3px solid rgb(22, 22, 22);
+    border-radius: 20px;
+    background: white;
+}
+.-column{
+    display: flex;
+    flex-direction: column;
+}
+form{
+    background: white;
+    border: 3px solid rgb(22, 22, 22);
+    border-radius: 20px;
+    padding: 20px;
+    color: black;
+}
+.-input{
+    padding: 10px;
+    border: 3px solid rgb(22, 22, 22);
+    font-family: 'sans';
+}
+.-ilink{
+    width: 20px;
+    height: 20px;
+}
+.dialog-conteiner{
+    background-color: rgba(252, 252, 252, 0.308);
+    display: none;
+    position: fixed;
+    z-index: 90;
+    width: 100%;
+    height: 100%;
+}
+.dialog-ask{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+    margin: 300px auto;
+    border: 2px solid black;
+}
